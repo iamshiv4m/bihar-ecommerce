@@ -5,7 +5,7 @@ import { PopularProducts } from "@/components/sections/popular-products";
 import { ProductTabs } from "@/components/sections/product-tabs";
 import { PromotionalBanners } from "@/components/sections/promotional-banners";
 import { Newsletter } from "@/components/sections/newsletter";
-import { BiharMap } from "@/components/sections/bihar-map";
+import { ArtisanSpotlight } from "@/components/sections/artisan-spotlight";
 
 export const metadata: Metadata = {
   title: "Bihar Crafts - Authentic Handmade Products from Bihar",
@@ -20,7 +20,7 @@ export default function HomePage() {
       <FeaturedCategories />
       <PopularProducts />
       <ProductTabs />
-      <BiharMap />
+      <ArtisanSpotlight />
       <PromotionalBanners />
       <Newsletter />
     </div>
